@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BF4083148E8FA800EA557F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BF4082148E8FA800EA557F /* Cocoa.framework */; };
+		D9BF408D148E8FA900EA557F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BF408B148E8FA900EA557F /* InfoPlist.strings */; };
+		D9BF408F148E8FA900EA557F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF408E148E8FA900EA557F /* main.m */; };
+		D9BF4093148E8FA900EA557F /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9BF4091148E8FA900EA557F /* Credits.rtf */; };
+		D9BF4096148E8FA900EA557F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF4095148E8FA900EA557F /* AppDelegate.m */; };
+		D9BF4099148E8FA900EA557F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9BF4097148E8FA900EA557F /* MainMenu.xib */; };
+		D9BF40A1148E8FA900EA557F /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BF40A0148E8FA900EA557F /* SenTestingKit.framework */; };
+		D9BF40A2148E8FA900EA557F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BF4082148E8FA800EA557F /* Cocoa.framework */; };
+		D9BF40AA148E8FA900EA557F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9BF40A8148E8FA900EA557F /* InfoPlist.strings */; };
+		D9BF40AD148E8FA900EA557F /* FinderStateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BF40AC148E8FA900EA557F /* FinderStateTests.m */; };
+		D9BF40B8148E900A00EA557F /* finder.icns in Resources */ = {isa = PBXBuildFile; fileRef = D9BF40B6148E900A00EA557F /* finder.icns */; };
+		D9BF40B9148E900A00EA557F /* finder2.icns in Resources */ = {isa = PBXBuildFile; fileRef = D9BF40B7148E900A00EA557F /* finder2.icns */; };
+		D9BF40BB148E904400EA557F /* finder.icns in Resources */ = {isa = PBXBuildFile; fileRef = D9BF40BA148E904400EA557F /* finder.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9BF40A3148E8FA900EA557F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BF4075148E8FA800EA557F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BF407D148E8FA800EA557F;
+			remoteInfo = FinderState;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9BF407E148E8FA800EA557F /* FinderState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinderState.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BF4082148E8FA800EA557F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9BF4085148E8FA800EA557F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9BF4086148E8FA800EA557F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9BF4087148E8FA800EA557F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9BF408A148E8FA900EA557F /* FinderState-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderState-Info.plist"; sourceTree = "<group>"; };
+		D9BF408C148E8FA900EA557F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9BF408E148E8FA900EA557F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9BF4090148E8FA900EA557F /* FinderState-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinderState-Prefix.pch"; sourceTree = "<group>"; };
+		D9BF4092148E8FA900EA557F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9BF4094148E8FA900EA557F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9BF4095148E8FA900EA557F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9BF4098148E8FA900EA557F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D9BF409F148E8FA900EA557F /* FinderStateTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinderStateTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BF40A0148E8FA900EA557F /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		D9BF40A7148E8FA900EA557F /* FinderStateTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinderStateTests-Info.plist"; sourceTree = "<group>"; };
+		D9BF40A9148E8FA900EA557F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9BF40AB148E8FA900EA557F /* FinderStateTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinderStateTests.h; sourceTree = "<group>"; };
+		D9BF40AC148E8FA900EA557F /* FinderStateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinderStateTests.m; sourceTree = "<group>"; };
+		D9BF40B6148E900A00EA557F /* finder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = finder.icns; sourceTree = "<group>"; };
+		D9BF40B7148E900A00EA557F /* finder2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = finder2.icns; sourceTree = "<group>"; };
+		D9BF40BA148E904400EA557F /* finder.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = finder.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BF407B148E8FA800EA557F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF4083148E8FA800EA557F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BF409B148E8FA900EA557F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF40A1148E8FA900EA557F /* SenTestingKit.framework in Frameworks */,
+				D9BF40A2148E8FA900EA557F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9BF4073148E8FA800EA557F = {
+			isa = PBXGroup;
+			children = (
+				D9BF40BA148E904400EA557F /* finder.icns */,
+				D9BF4088148E8FA800EA557F /* FinderState */,
+				D9BF40A5148E8FA900EA557F /* FinderStateTests */,
+				D9BF4081148E8FA800EA557F /* Frameworks */,
+				D9BF407F148E8FA800EA557F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9BF407F148E8FA800EA557F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF407E148E8FA800EA557F /* FinderState.app */,
+				D9BF409F148E8FA900EA557F /* FinderStateTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9BF4081148E8FA800EA557F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF4082148E8FA800EA557F /* Cocoa.framework */,
+				D9BF40A0148E8FA900EA557F /* SenTestingKit.framework */,
+				D9BF4084148E8FA800EA557F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9BF4084148E8FA800EA557F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF4085148E8FA800EA557F /* AppKit.framework */,
+				D9BF4086148E8FA800EA557F /* CoreData.framework */,
+				D9BF4087148E8FA800EA557F /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9BF4088148E8FA800EA557F /* FinderState */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF4094148E8FA900EA557F /* AppDelegate.h */,
+				D9BF4095148E8FA900EA557F /* AppDelegate.m */,
+				D9BF4097148E8FA900EA557F /* MainMenu.xib */,
+				D9BF4089148E8FA900EA557F /* Supporting Files */,
+			);
+			path = FinderState;
+			sourceTree = "<group>";
+		};
+		D9BF4089148E8FA900EA557F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF40B6148E900A00EA557F /* finder.icns */,
+				D9BF40B7148E900A00EA557F /* finder2.icns */,
+				D9BF408A148E8FA900EA557F /* FinderState-Info.plist */,
+				D9BF408B148E8FA900EA557F /* InfoPlist.strings */,
+				D9BF408E148E8FA900EA557F /* main.m */,
+				D9BF4090148E8FA900EA557F /* FinderState-Prefix.pch */,
+				D9BF4091148E8FA900EA557F /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9BF40A5148E8FA900EA557F /* FinderStateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF40AB148E8FA900EA557F /* FinderStateTests.h */,
+				D9BF40AC148E8FA900EA557F /* FinderStateTests.m */,
+				D9BF40A6148E8FA900EA557F /* Supporting Files */,
+			);
+			path = FinderStateTests;
+			sourceTree = "<group>";
+		};
+		D9BF40A6148E8FA900EA557F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9BF40A7148E8FA900EA557F /* FinderStateTests-Info.plist */,
+				D9BF40A8148E8FA900EA557F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9BF407D148E8FA800EA557F /* FinderState */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BF40B0148E8FA900EA557F /* Build configuration list for PBXNativeTarget "FinderState" */;
+			buildPhases = (
+				D9BF407A148E8FA800EA557F /* Sources */,
+				D9BF407B148E8FA800EA557F /* Frameworks */,
+				D9BF407C148E8FA800EA557F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinderState;
+			productName = FinderState;
+			productReference = D9BF407E148E8FA800EA557F /* FinderState.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9BF409E148E8FA900EA557F /* FinderStateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BF40B3148E8FA900EA557F /* Build configuration list for PBXNativeTarget "FinderStateTests" */;
+			buildPhases = (
+				D9BF409A148E8FA900EA557F /* Sources */,
+				D9BF409B148E8FA900EA557F /* Frameworks */,
+				D9BF409C148E8FA900EA557F /* Resources */,
+				D9BF409D148E8FA900EA557F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BF40A4148E8FA900EA557F /* PBXTargetDependency */,
+			);
+			name = FinderStateTests;
+			productName = FinderStateTests;
+			productReference = D9BF409F148E8FA900EA557F /* FinderStateTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BF4075148E8FA800EA557F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CCoding;
+			};
+			buildConfigurationList = D9BF4078148E8FA800EA557F /* Build configuration list for PBXProject "FinderState" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9BF4073148E8FA800EA557F;
+			productRefGroup = D9BF407F148E8FA800EA557F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9BF407D148E8FA800EA557F /* FinderState */,
+				D9BF409E148E8FA900EA557F /* FinderStateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9BF407C148E8FA800EA557F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF408D148E8FA900EA557F /* InfoPlist.strings in Resources */,
+				D9BF4093148E8FA900EA557F /* Credits.rtf in Resources */,
+				D9BF4099148E8FA900EA557F /* MainMenu.xib in Resources */,
+				D9BF40B8148E900A00EA557F /* finder.icns in Resources */,
+				D9BF40B9148E900A00EA557F /* finder2.icns in Resources */,
+				D9BF40BB148E904400EA557F /* finder.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BF409C148E8FA900EA557F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF40AA148E8FA900EA557F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D9BF409D148E8FA900EA557F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BF407A148E8FA800EA557F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF408F148E8FA900EA557F /* main.m in Sources */,
+				D9BF4096148E8FA900EA557F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BF409A148E8FA900EA557F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BF40AD148E8FA900EA557F /* FinderStateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9BF40A4148E8FA900EA557F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BF407D148E8FA800EA557F /* FinderState */;
+			targetProxy = D9BF40A3148E8FA900EA557F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9BF408B148E8FA900EA557F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BF408C148E8FA900EA557F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9BF4091148E8FA900EA557F /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BF4092148E8FA900EA557F /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9BF4097148E8FA900EA557F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BF4098148E8FA900EA557F /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D9BF40A8148E8FA900EA557F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BF40A9148E8FA900EA557F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9BF40AE148E8FA900EA557F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9BF40AF148E8FA900EA557F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9BF40B1148E8FA900EA557F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderState/FinderState-Prefix.pch";
+				INFOPLIST_FILE = "FinderState/FinderState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9BF40B2148E8FA900EA557F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderState/FinderState-Prefix.pch";
+				INFOPLIST_FILE = "FinderState/FinderState-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D9BF40B4148E8FA900EA557F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinderState.app/Contents/MacOS/FinderState";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderState/FinderState-Prefix.pch";
+				INFOPLIST_FILE = "FinderStateTests/FinderStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		D9BF40B5148E8FA900EA557F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FinderState.app/Contents/MacOS/FinderState";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinderState/FinderState-Prefix.pch";
+				INFOPLIST_FILE = "FinderStateTests/FinderStateTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9BF4078148E8FA800EA557F /* Build configuration list for PBXProject "FinderState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BF40AE148E8FA900EA557F /* Debug */,
+				D9BF40AF148E8FA900EA557F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BF40B0148E8FA900EA557F /* Build configuration list for PBXNativeTarget "FinderState" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BF40B1148E8FA900EA557F /* Debug */,
+				D9BF40B2148E8FA900EA557F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D9BF40B3148E8FA900EA557F /* Build configuration list for PBXNativeTarget "FinderStateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BF40B4148E8FA900EA557F /* Debug */,
+				D9BF40B5148E8FA900EA557F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BF4075148E8FA800EA557F /* Project object */;
+}
